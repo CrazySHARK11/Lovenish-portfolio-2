@@ -251,7 +251,7 @@ header nav {
 }
 
 .projcard {
-  height: 414px;
+  min-height: 414px;
   width: min(355px, 100%);
   border: 1px solid #00f7ff;
   background-color: #000c0d;
@@ -343,6 +343,7 @@ form {
   gap: 1em;
 }
 form input, form textarea {
+  width: 100%;
   padding: 20px;
   outline: none;
   background-color: #000c0d;
